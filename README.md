@@ -4,11 +4,11 @@ NTPrinter 打印 SDK
 
 ## 示例项目
 
-在 Demo 文件夹下有个示例项目. 相关依赖库已提前下载:
-Alamofire.framework
-RxSwift.framework
-CocoaAsyncSocket.framework
-可根据自身项目需求 将Cartfile文件copy至项目文件夹中，并执行carthage update --platform iOS进行安装，也可以直接使用Demo工程中的相关库。
+在 Demo 文件夹下有个示例项目. 相关依赖库已提前下载:<br>
+Alamofire.framework<br>
+RxSwift.framework<br>
+CocoaAsyncSocket.framework<br>
+可根据自身项目需求 将Cartfile文件copy至项目文件夹中，并执行carthage update --platform iOS进行安装，也可以直接使用Demo工程中的相关库。<br>
 
 ## 安装
 
@@ -18,7 +18,7 @@ CocoaAsyncSocket.framework
 
 ## 用法
 
-相关API可参考：参考`NTPrintSDK API` [样例](https://github.com/yukeyjc/NTPrinter/wiki/NTPrinter-SDK-API%E8%AF%B4%E6%98%8E)
+相关API可参考：参考[NTPrintSDK API](https://github.com/yukeyjc/NTPrinter/wiki/NTPrinter-SDK-API%E8%AF%B4%E6%98%8E)
 
 #### 注册 SDK
 
