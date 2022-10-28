@@ -21,9 +21,9 @@ CocoaAsyncSocket.framework<br>
 参考 [NTPrintSDK API](https://github.com/yukeyjc/NTPrinter/wiki/NTPrinter-SDK-API%E8%AF%B4%E6%98%8E)
 
 
-## 票据模板
+## 相关模板
 
-参考 [模板样例](http://sslstatic.nextcont.com/trimkeeper/demo.html)
+[票据模板](http://sslstatic.nextcont.com/trimkeeper/demo.html)
 
 ## CHANGELOG
 
