@@ -23,7 +23,8 @@ CocoaAsyncSocket.framework<br>
 
 ## 相关模板
 
-[票据模板](http://sslstatic.nextcont.com/trimkeeper/demo.html)
+[票据模板](https://github.com/yukeyjc/NTPrinter/blob/main/Template/GPC08180_T1.md)
+[票据模板相关说明](https://github.com/yukeyjc/NTPrinter/wiki/%E7%A5%A8%E6%8D%AE%E6%A8%A1%E6%9D%BF%E7%9B%B8%E5%85%B3%E8%AF%B4%E6%98%8E)
 
 ## CHANGELOG
 
