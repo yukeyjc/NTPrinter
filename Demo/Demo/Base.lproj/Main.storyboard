@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYu-qA-efB">
+                                <rect key="frame" x="50" y="214" width="314" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3Vc-sN-UNb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="连接打印机"/>
+                                <connections>
+                                    <action selector="connectPrint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKb-Yr-rL0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4K-OR-KH3">
+                                <rect key="frame" x="50" y="144" width="314" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fY1-AJ-EsO"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="初始化SDK"/>
+                                <connections>
+                                    <action selector="initSDK:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sfM-Sa-sbn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="打印机连接状态" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goW-Pa-ib6">
+                                <rect key="frame" x="10" y="797.5" width="394" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PG2-hW-jf0">
+                                <rect key="frame" x="50" y="284" width="314" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="eWp-x6-VlM"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="打印票据"/>
+                                <connections>
+                                    <action selector="doPrint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="21a-Jb-6fH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aYu-qA-efB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="1gD-ZP-3wi"/>
+                            <constraint firstItem="PG2-hW-jf0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="6AE-SU-nzh"/>
+                            <constraint firstItem="b4K-OR-KH3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="9uB-pd-O10"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b4K-OR-KH3" secondAttribute="trailing" constant="50" id="HZw-tJ-1Fh"/>
+                            <constraint firstItem="goW-Pa-ib6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Ln9-GQ-LrF"/>
+                            <constraint firstItem="aYu-qA-efB" firstAttribute="top" secondItem="b4K-OR-KH3" secondAttribute="bottom" constant="30" id="Mtc-tE-KEX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aYu-qA-efB" secondAttribute="trailing" constant="50" id="QKp-QU-IqJ"/>
+                            <constraint firstItem="goW-Pa-ib6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-50" id="SOQ-df-KzO"/>
+                            <constraint firstItem="b4K-OR-KH3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="SsA-LA-adN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PG2-hW-jf0" secondAttribute="trailing" constant="50" id="iUC-AA-eTz"/>
+                            <constraint firstItem="goW-Pa-ib6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ieF-Bb-Wg5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="goW-Pa-ib6" secondAttribute="trailing" constant="10" id="nim-kG-cfZ"/>
+                            <constraint firstItem="PG2-hW-jf0" firstAttribute="top" secondItem="aYu-qA-efB" secondAttribute="bottom" constant="30" id="oBU-LX-Txu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="printerState" destination="goW-Pa-ib6" id="f3J-p2-YBS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="76"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

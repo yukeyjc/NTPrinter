@@ -1,0 +1,11 @@
+framework module NTPrinterSDK {
+  umbrella header "NTPrinterSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module NTPrinterSDK.Swift {
+    header "NTPrinterSDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,10 @@
+# https://github.com/Alamofire/Alamofire
+github "Alamofire/Alamofire" ~> 4.7
+
+# https://github.com/ReactiveX/RxSwift
+github "ReactiveX/RxSwift" "6.5.0"
+# https://github.com/robbiehanson/CocoaAsyncSocket
+github "robbiehanson/CocoaAsyncSocket" "master"
+
+# carthage update --platform iOS
+
