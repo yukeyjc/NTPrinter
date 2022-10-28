@@ -23,10 +23,10 @@ CocoaAsyncSocket.framework<br>
 
 ## 票据模板
 
-参考`TKTemplate.previewUrl` [样例](http://sslstatic.nextcont.com/trimkeeper/demo.html)
+参考 [模板样例](http://sslstatic.nextcont.com/trimkeeper/demo.html)
 
 ## CHANGELOG
 
-> ## [1.0.0](https://github.com/lugq1001/Trimkeeper) (2018-08-15)
+> ## [1.0.0](https://github.com/yukeyjc/NTPrinter/tree/main/SDK/1.0.0/NTPrinterSDK.framework) (2022-10-28)
 >
-> **增加打印机连接监听**
+> **第一版测试**
