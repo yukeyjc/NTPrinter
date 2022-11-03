@@ -56,19 +56,35 @@
                                     <action selector="doPrint:" destination="BYZ-38-t0r" eventType="touchUpInside" id="21a-Jb-6fH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUM-ba-9GQ">
+                                <rect key="frame" x="20" y="347" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Lkq-1w-QhA"/>
+                                    <constraint firstAttribute="height" constant="40" id="Rpx-um-8sP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="打印小票"/>
+                                <connections>
+                                    <action selector="printTicket:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZtZ-mg-kjF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aYu-qA-efB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="1gD-ZP-3wi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hUM-ba-9GQ" secondAttribute="trailing" constant="20" id="63u-ir-llF"/>
                             <constraint firstItem="PG2-hW-jf0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="6AE-SU-nzh"/>
                             <constraint firstItem="b4K-OR-KH3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="9uB-pd-O10"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b4K-OR-KH3" secondAttribute="trailing" constant="50" id="HZw-tJ-1Fh"/>
                             <constraint firstItem="goW-Pa-ib6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Ln9-GQ-LrF"/>
                             <constraint firstItem="aYu-qA-efB" firstAttribute="top" secondItem="b4K-OR-KH3" secondAttribute="bottom" constant="30" id="Mtc-tE-KEX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aYu-qA-efB" secondAttribute="trailing" constant="50" id="QKp-QU-IqJ"/>
+                            <constraint firstItem="hUM-ba-9GQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Rsf-RM-uQd"/>
                             <constraint firstItem="goW-Pa-ib6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-50" id="SOQ-df-KzO"/>
                             <constraint firstItem="b4K-OR-KH3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="SsA-LA-adN"/>
+                            <constraint firstItem="hUM-ba-9GQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eCc-ff-caX"/>
+                            <constraint firstItem="hUM-ba-9GQ" firstAttribute="top" secondItem="PG2-hW-jf0" secondAttribute="bottom" constant="23" id="hNY-e5-Vc4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PG2-hW-jf0" secondAttribute="trailing" constant="50" id="iUC-AA-eTz"/>
                             <constraint firstItem="goW-Pa-ib6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ieF-Bb-Wg5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="goW-Pa-ib6" secondAttribute="trailing" constant="10" id="nim-kG-cfZ"/>
